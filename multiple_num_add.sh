@@ -10,8 +10,7 @@ then
 else
 	for i in $test
 	do
-		add=$i
-		add2=$(( $add + $add2 ))
+		add2=$(( $i + $add2 ))
 	done
 fi
 echo " total out put is: $add2"
